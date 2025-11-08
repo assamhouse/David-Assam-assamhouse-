@@ -1,0 +1,12 @@
+@media screen and (max-width: 294px){
+    nav li{
+        font-size: 150%;
+        padding:none;
+    }
+    Header{
+        padding: 1.9%;
+    }
+    nav ul{
+        text-align: left;
+    }
+}

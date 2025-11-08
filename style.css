@@ -1,0 +1,91 @@
+body{
+    font-family:'calibri';
+    line-height: 2.2em;
+    background:linear-gradient(to right,skyblue,white);
+    margin: 0
+}
+a{
+text-decoration: 0;
+  color:black;
+}
+Header{
+ font-family:'orange juice regular';
+background:linear-gradient(skyblue, white);
+box-shadow: grey 9px 9px 9px ;
+border: 6px solid grey;
+border-left: none;
+border-top: none;
+margin: 0;
+
+}
+Header h1{
+  margin: 0;
+  font-size: 2.2em;
+  padding-top: 10px;
+  padding-left: 1.5%;
+} 
+Header h2{
+  margin: 0;
+ font-size: 2.2em;
+ padding-left: 1.5%;
+}
+#Main{
+  margin-left: 10px;
+}
+nav {
+  text-align: right;
+  padding: 10px 0;
+  margin-top: 10px;
+  font-family:'orange juice regular';
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 200%;
+  padding: 1.1%;
+  margin-bottom: 0;
+}
+#doo{
+  margin-left: 10px;
+}
+.goo{
+  margin-left: 10px;
+}
+.goo ul{
+  padding: 0;
+}
+.goo a{
+    font-size: 25px;
+    padding: 0;
+    background-repeat: no-repeat;
+    display: block;
+   min-height: 40px;
+   background-repeat: no-repeat;
+   background-size: 40px 40px;
+   padding: 0 0 0 50px;
+    margin: 0 0 10px;
+}
+.goo ul li.phone a {
+  background-image: url(img/phone.png);
+}
+.goo ul li.email a{
+  background-image:url(img/twitter-wrap.png) ;
+}
+#footer {
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color:black;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
